@@ -81,6 +81,13 @@ $header-padding: 20px 20px !default;
   src: url("../fonts/Ubuntu-L_W.woff2") format("woff2"), 
        url("../Ubuntu-L_W.woff") format("woff"); }
 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Ubuntu-R_W.woff2") format("woff2"),
+       url("../fonts/Ubuntu-R_W.woff") format("woff"); }
+
 
 // Font size of the logo.
 $logo-font-size: 38px !default;
@@ -108,10 +115,10 @@ $post-list-margin-bottom: 20px !default;
 $post-border: 1px solid $light-gray !default;
 
 // Font size of post title.
-$post-title-font-size: 22px !default;
+$post-title-font-size: 26px !default;
 
 // Font weight of post title.
-$post-title-font-weight: 400 !default;
+$post-title-font-weight: 500 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;
