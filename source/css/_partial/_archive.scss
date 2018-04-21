@@ -61,8 +61,6 @@
 
     &:hover {
       border-left: $archive-post-hover-border-left;
-      transition: $archive-post-hover-transition;
-      transform: $archive-post-hover-transform;
 
       .archive-post-time {
         color: darken($dark-gray, 10%);
