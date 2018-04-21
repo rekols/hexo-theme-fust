@@ -1,0 +1,28 @@
+// ==============================
+// Logo
+// =============================
+
+.logo-wrapper {
+  float: left;
+
+  .logo {
+    font-size: $logo-font-size;
+    font-family: $logo-font-family;
+    color: $theme-color;
+  }
+  
+  img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    border-radius: 55px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
+@include max-screen() {
+  .logo-wrapper {
+    display: none;
+  }
+}
