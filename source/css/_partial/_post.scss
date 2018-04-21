@@ -8,10 +8,9 @@
 }
 
 .post {
-  padding: $post-padding;
-
   & + .post {
     border-top: $post-border;
+    padding-top: 15px;
   }
 
   @import '_post/header';
