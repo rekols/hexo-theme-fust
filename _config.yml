@@ -14,6 +14,10 @@ logo: true
 # display blog title
 title: false
 
+auto_excerpt:
+  enable: true
+  length: 100
+
 # ===========================================
 # Menu Settings
 # ===========================================

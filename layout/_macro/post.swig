@@ -35,17 +35,17 @@
 
     <div class="post-content">
       {% if is_home() %}
-        {% set excerpt = "" %}
-        {% if post.description %}
-          {% set excerpt = '<p>' + post.description + '</p>' %}
-        {% elif post.excerpt %}
-          {% set excerpt = post.excerpt %}
-        {% endif %}
 
-        {% if excerpt %}
-          {{ excerpt }}
+        {% if theme.auto_excerpt.enable %}
+          {% set content = post.content | striptags %}
+          {{ '<p>' + content.substring(0, theme.auto_excerpt.length) + '... </p>'}}
+
         {% else %}
-          {{ post.content }}
+          {% set excerpt = "" %}
+          {% if post.description %}
+            {% set excerpt = '<p>' + post.description + '</p>' %}
+            {{ excerpt }}
+          {% endif %}
         {% endif %}
 
       {% else %}
