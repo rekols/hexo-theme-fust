@@ -8,8 +8,11 @@
   }
 
   .post-link {
-    @include underline-from-center;
     color: $theme-color;
+
+    &:hover {
+      color: rgba(red($theme-color), green($theme-color), blue($theme-color), 0.7);
+    }
   }
 
   .post-meta {
