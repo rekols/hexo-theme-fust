@@ -1,6 +1,11 @@
 <div class="logo-wrapper">
-  <a href="{{ url_for('.') }}" class="logo"> <img src="/avatar.png"></img> {{ config.title }}</a>
-  
+  {% if theme.logo %}
+    <a href="{{ url_for('.') }}" class="logo"><img src="/avatar.png"></img></a>
+  {% endif %}
+
+  {% if theme.title %}
+    <a href="{{ url_for('.') }}" class="logo"> {{ config.title }} </a>
+  {% endif %}
 </div>
 
 <nav class="site-navbar">

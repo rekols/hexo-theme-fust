@@ -8,6 +8,12 @@ since: 2017
 # Custom your favicon.ico in `site/source`
 favicon: /avatar.png
 
+# display the logo
+logo: true
+
+# display blog title
+title: false
+
 # ===========================================
 # Menu Settings
 # ===========================================
