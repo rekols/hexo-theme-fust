@@ -11,14 +11,18 @@
     font-weight: 300;
     color: $theme-color;
   }
-  
+
   img {
     width: $logo-image-size;
     height: $logo-image-size;
     margin-bottom: 10px;
     margin-right: 8px;
     border-radius: $logo-image-size;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      box-shadow: 0 1px 12px 0 $theme-color;
+    }
   }
 }
 
