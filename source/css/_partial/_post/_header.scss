@@ -22,9 +22,11 @@
     .post-category {
       display: inline;
       font-size: 14px;
-      color: $theme-color;
       border-radius: 1px;
-      background: rgba(67, 159, 85, 0.1);
+      background-color: rgba(red($theme-color),
+                             green($theme-color),
+                             blue($theme-color), 0.1);
+      color: $theme-color;
 
       //&::before {
       //  content: '·';
