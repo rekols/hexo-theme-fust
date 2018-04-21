@@ -23,10 +23,10 @@
       display: inline;
       font-size: 14px;
       border-radius: 1px;
+      color: $theme-color;
       background-color: rgba(red($theme-color),
                              green($theme-color),
                              blue($theme-color), 0.1);
-      color: $theme-color;
 
       //&::before {
       //  content: '·';
@@ -45,6 +45,9 @@
 
         &:hover {
           color: #26963C;
+          background-color: rgba(red($theme-color),
+                             green($theme-color),
+                             blue($theme-color), 0.2);
         }
       }
     }
