@@ -12,6 +12,7 @@ You can visit my [blog](https://blog.rekols.com/)
 
 ```
 $ npm install hexo-renderer-scss --save
+$ npm install hexo-wordcount --save
 $ git clone https://github.com/rekols/hexo-theme-green.git themes/green
 ```
 

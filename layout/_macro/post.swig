@@ -12,7 +12,17 @@
       <div class="post-meta">
         <span class="post-time">
           {{ __('posts.posted') }} {{ full_date(post.date, 'YYYY-MM-DD') }}
+          {% if !is_home() %}
+          {{ __('posts.length') }} {{ wordcount(post.content) }}
+          {% endif %}
         </span>
+        {% if post.categories and post.categories.length %}
+          <div class="post-category">
+            {% for category in post.categories %}
+              <a href="{{ url_for(category.path) }}">{{ category.name }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
         {% if theme.leancloud.app_id and theme.leancloud.app_key %}
         <div class="post-visits"
              data-url="{{ url_for(post.path) }}"
