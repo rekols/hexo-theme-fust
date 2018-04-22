@@ -18,7 +18,7 @@
     background: $theme-color;
     transition-duration: 0.2s;
     transition-property: right, left;
-    transition-timing-function: ease-out;
+    transition-timing-function: linear;
   }
 
   &.active,

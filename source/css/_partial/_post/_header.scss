@@ -1,17 +1,19 @@
 .post-header {
   .post-title {
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-size: $post-title-font-size;
     font-weight: $post-title-font-weight;
     font-family: $global-font-family;
   }
 
   .post-link {
-    color: $theme-color;
+    color: $theme-color; 
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
 
     &:hover {
-      color: rgba(red($theme-color), green($theme-color), blue($theme-color), 0.7);
+      border-bottom: 2px solid $theme-color;
     }
   }
 
