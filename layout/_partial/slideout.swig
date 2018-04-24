@@ -1,6 +1,6 @@
 <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-  <a href="{{ url_for('.') }}" class="slideout-logo"><img src="/avatar.png"></img> {{ config.title }} </a>
+  <a href="{{ url_for('.') }}" class="slideout-logo"><img src="/avatar.png"></img> <a href="{{ url_for('.') }}" class="logo">{{ config.title }}</a> </a>
 
   </div>
   <div class="mobile-navbar-icon">
