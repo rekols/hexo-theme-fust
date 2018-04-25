@@ -8,6 +8,12 @@ A super simple theme for Hexo, fork on even.
 
 You can visit my [blog](https://blog.rekols.com/)
 
+## Features
+
+* Ubuntu Font: The Ubuntu font family are a set of matching new libre/open fonts.
+
+* Highly customized
+
 ## Installation
 
 ```
