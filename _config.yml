@@ -25,7 +25,7 @@ menu:
   Home: /
   Archives: /archives/
   # Tags: /tags
-  Categories: /categories
+  # Categories: /categories
   About: /about
 
 # ===========================================
@@ -44,8 +44,8 @@ copyright:
 reward:
   enable: false
   qrCode:
-    wechat:
-    alipay:
+    wechat: images/reward/wechat.png
+    alipay: images/reward/alipay.png
 
 # ===========================================
 # Third Party Services Settings
@@ -80,4 +80,4 @@ livere_datauid:
 # ===========================================
 # Version
 # ===========================================
-version: 2.6.0
+version: 1.0

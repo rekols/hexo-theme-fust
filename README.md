@@ -1,4 +1,4 @@
-# Hexo Theme Green
+# Hexo Theme Fust
 
 A super simple theme for Hexo, fork on even.
 
@@ -31,4 +31,4 @@ $ git pull
 
 ## License
 
-hexo-theme-green is licensed under GPLv3.
+hexo-theme-fust is licensed under GPLv3.
