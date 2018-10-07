@@ -4,9 +4,10 @@
 
 .copyright {
   margin: $copyright-margin;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: $dark-gray;
   text-align: center;
+  font-size: 14px;
   font-family: $global-serif-font-family;
 
   .hexo-link,
@@ -16,7 +17,7 @@
 
   .copyright-year {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
     .heart {
       font-size: 14px;

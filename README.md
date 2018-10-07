@@ -19,16 +19,16 @@ You can visit my [blog](https://blog.rekols.com/)
 ```
 $ npm install hexo-renderer-scss --save
 $ npm install hexo-wordcount --save
-$ git clone https://github.com/rekols/hexo-theme-green.git themes/green
+$ git clone https://github.com/rekols/hexo-theme-fust.git themes/fust
 ```
 
 ## Update
 
 ```
-$ cd themes/green
+$ cd themes/fust
 $ git pull
 ```
 
 ## License
 
-hexo-theme-fust is licensed under GPLv3.
+hexo-theme-fust is licensed under MIT.
