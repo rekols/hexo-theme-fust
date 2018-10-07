@@ -11,10 +11,10 @@
 
       <div class="post-meta">
         <span class="post-time">
-          {{ __('posts.posted') }} {{ full_date(post.date, 'YYYY-MM-DD') }}
+          {{ __('posts.posted') }} {{ full_date(post.date, 'YYYY-MM-DD HH:mm') }}
           {% if !is_home() %}
-	  {{ __('posts.length') }} {{ wordcount(post.content) }}
-	  {% endif %}
+	     &nbsp {{ __('posts.length') }} {{ wordcount(post.content) }}
+	   {% endif %}
         </span>
         {% if post.categories and post.categories.length and is_home() %}
           <div class="post-category">
