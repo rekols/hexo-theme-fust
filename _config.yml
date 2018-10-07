@@ -15,7 +15,7 @@ logo: true
 title: false
 
 auto_excerpt:
-  enable: true
+  enable: false
   length: 100
 
 # ===========================================
