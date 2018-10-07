@@ -5,7 +5,7 @@
         {% if is_home() %}
           <a class="post-link" href="{{ url_for(post.path) }}">{{ post.title }}</a>
         {% else %}
-          {{ post.title }}
+          <font style="font-weight: 600"> {{ post.title }} </font>
         {% endif %}
       </h1>
 
@@ -33,8 +33,11 @@
       </div>
     </header>
 
-    {# Post TOC #}
-    {% include "../_partial/_post/toc.swig" %}
+    {% if theme.theme.toc %}
+      {# Post TOC #}
+      {% include "../_partial/_post/toc.swig" %}
+    {% else %}
+    {% endif %}
 
     <div class="post-content">
       {% if is_home() %}
