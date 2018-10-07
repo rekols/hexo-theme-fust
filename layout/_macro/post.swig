@@ -5,7 +5,7 @@
         {% if is_home() %}
           <a class="post-link" href="{{ url_for(post.path) }}">{{ post.title }}</a>
         {% else %}
-          <font style="font-weight: 600"> {{ post.title }} </font>
+          {{ post.title }}
         {% endif %}
       </h1>
 

@@ -7,7 +7,7 @@
 $theme-color-config: hexo-theme-config('theme.color');
 
 // Default theme color of the site.
-$theme-color: #439F55 !default;
+$theme-color: #41B883 !default;
 
 // Deputy theme color of the site.
 $deputy-color: #EFEFEF !default;
@@ -61,19 +61,6 @@ $global-headings: (
 // Padding of the site header.
 $header-padding: 20px 20px !default;
 
-
-@font-face {
-  font-family: 'Chancery';
-  src: url('../fonts/chancery/apple-chancery-webfont.eot');
-  src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
-  url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
-  url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
-  url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
-  font-weight: lighter;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
@@ -121,7 +108,7 @@ $post-border: 1px solid $light-gray !default;
 $post-title-font-size: 26px !default;
 
 // Font weight of post title.
-$post-title-font-weight: 350 !default;
+$post-title-font-weight: 600 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;
