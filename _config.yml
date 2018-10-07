@@ -57,9 +57,9 @@ leancloud:
   app_key:
 
 # Baidu Analytics
-baidu_analytics:
+baidu_analytics: 41c6fe4f66621dbc8a1f78c002656732
 # Baidu Verification
-baidu_verification:
+baidu_verification: 
 
 # Google Analytics
 google_analytics:

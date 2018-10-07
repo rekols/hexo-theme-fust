@@ -26,12 +26,6 @@
   <link rel="stylesheet" type="text/css" href="{{ url_for('lib/fancybox/jquery.fancybox.css') }}" />
 {% endif %}
 
-{# Analytics and push #}
-{% if not env.debug %}
-  {% include "../_script/analytics.swig" %}
-  {% include "../_script/push.swig" %}
-{% endif %}
-
 {# LeanCloud Counter #}
 {% include "../_script/counter.swig"%}
 
