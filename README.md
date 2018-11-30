@@ -2,11 +2,9 @@
 
 A super simple theme for Hexo, fork on even.
 
-[中文文档](./README_CN.md)
-
 ## Preview
 
-You can visit my [blog](https://blog.rekols.com/)
+You can visit my [blog](http://rekols.coding.me/)
 
 ## Features
 
